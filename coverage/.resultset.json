@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/pedrocastanheira/Projects/week4/bookmark_manager/app/models/link.rb": [
+      "/Users/konradschlatte/projects/bookmark_new/Bookmark-manager/app/models/link.rb": [
         1,
         1,
         null,
@@ -19,7 +19,7 @@
         1,
         1
       ],
-      "/Users/pedrocastanheira/Projects/week4/bookmark_manager/app/bookmark.rb": [
+      "/Users/konradschlatte/projects/bookmark_new/Bookmark-manager/app/bookmark.rb": [
         1,
         1,
         null,
@@ -40,7 +40,7 @@
         1,
         null
       ],
-      "/Users/pedrocastanheira/Projects/week4/bookmark_manager/spec/features/feature_tests_spec.rb": [
+      "/Users/konradschlatte/projects/bookmark_new/Bookmark-manager/spec/features/feature_tests_spec.rb": [
         null,
         null,
         null,
@@ -56,6 +56,6 @@
         null
       ]
     },
-    "timestamp": 1485287385
+    "timestamp": 1485287595
   }
 }
