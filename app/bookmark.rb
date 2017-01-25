@@ -1,5 +1,9 @@
+ENV["RACK_ENV"] ||= "development"
+
 require 'sinatra/base'
 require_relative 'models/link.rb'
+
+
 
 class Bookmark < Sinatra::Base
   get '/' do
@@ -9,7 +13,7 @@ class Bookmark < Sinatra::Base
 
   get '/links' do
     @links = Link.all
-    linkone = @links[0].title
+
 
     erb :links
   end
