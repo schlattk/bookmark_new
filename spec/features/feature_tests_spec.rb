@@ -19,5 +19,15 @@ feature '1. see a list of links on the homepage' do
       expect(page).to have_content("www.bbc.com")
     end
   end
+  scenario 'tagging entries' do
+    visit '/links/new'
+    fill_in :title, with: "bbc"
+    fill_in :url, with: "www.bbc.com"
+    fill_in :tag, with: "Sport"
+    click_button "submit"
+    within('ul#Links') do
+    expect(page).to have_content("Sport")
+    end
+  end
 
 end
