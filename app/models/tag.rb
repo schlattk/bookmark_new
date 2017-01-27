@@ -1,5 +1,3 @@
-require 'data_mapper'
-require 'dm-postgres-adapter'
 
 class Tag
   include DataMapper::Resource
@@ -8,6 +6,5 @@ class Tag
 
   property :id,   Serial
   property :name, String
-  #belongs_to :link
 
 end
