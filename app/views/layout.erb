@@ -5,9 +5,13 @@
   </head>
 
   <body>
-    <% if current_user %>
-      Welcome, <%= current_user.user_email%>
+    <%if current_user%>
+      Welcome, <%=current_user.user_email%>
     <%end%>
-    <%= yield %>
+    <%if flash[:notice]%>
+      <div id='notice'><%=flash[:notice]%></div>
+    <%end%>
+
+    <%=yield%>
   </body>
 </html>
